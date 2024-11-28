@@ -36,7 +36,6 @@ return {
 			window = {
 				mappings = {
 					["o"] = "open", -- Use 'o' to open files or directories
-					["<leader>"] = "open", -- Use 'o' to open files or directories
 					["<CR>"] = "open", -- Keep <Enter> to open as well
 					["s"] = "split_with_window_picker", -- Open in horizontal split
 					["v"] = "vsplit_with_window_picker", -- Open in vertical split

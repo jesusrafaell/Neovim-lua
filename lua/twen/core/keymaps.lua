@@ -36,7 +36,3 @@ vim.keymap.set("n", "<leader>k", ":m .-2<CR>==", { desc = "Move current line up"
 -- Move selected lines in Visual mode
 vim.keymap.set("v", "<leader>j", ":m '>+1<CR>gv=gv", { desc = "Move selected lines down" })
 vim.keymap.set("v", "<leader>k", ":m '<-2<CR>gv=gv", { desc = "Move selected lines up" })
-
--- Stay in Visual mode after indenting
-vim.keymap.set("v", ">", ">gv", { desc = "Indent and stay in Visual mode" })
-vim.keymap.set("v", "<", "<gv", { desc = "Un-indent and stay in Visual mode" })
